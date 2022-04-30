@@ -1,0 +1,58 @@
+{
+    "trip_financials": [
+        {
+            "id": 2867462,
+            "request_datetime": "2022-04-20T17:08:36.465861+04:30",
+            "driver": "راننده تست",
+            "final_price": 40000,
+            "source_title": "تست میاره",
+            "hub": {
+                "id": 3115,
+                "title": "تهران"
+            }
+        },
+        {
+            "id": 2867459,
+            "trip_id": 3207732,
+            "request_datetime": "2022-04-20T14:54:00.569765+04:30",
+            "driver": "راننده خورسند",
+            "final_price": 33000,
+            "source_title": "تست میاره ۲",
+            "hub": {
+                "id": 3115,
+                "title": "شیراز"
+            }
+        }
+    ],
+    "payments": [
+        {
+            "id": 199069,
+            "datetime": "2022-04-20T14:57:09.959629+04:30",
+            "amount": -100000,
+            "description": null
+        },
+        {
+            "id": 199070,
+            "datetime": "2022-04-18T16:58:47.678934+04:30",
+            "amount": -7140000,
+            "description": null
+        }
+    ],
+    "misc_expenses": [
+        {
+            "id": 10740,
+            "title": "تست فنی",
+            "created_at": "2022-04-20T16:57:30.703642+04:30",
+            "amount": 120000
+        }
+    ],
+    "concurrency_costs": [
+        {
+            "id": 28705,
+            "created_at": "2022-04-20T16:58:54.148113+04:30",
+            "amount": 7140000,
+            "start_date": "2022-06-08",
+            "end_date": "2022-07-07"
+        }
+    ]
+}

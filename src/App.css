@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
+.container {
+  margin: 45px auto;
+  margin-right: 5%;
+  margin-left: 5%;
+  max-width: 100%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.wraaper-select {
+  padding: 12px 0;
+  display: -webkit-flex;
   display: flex;
-  flex-direction: column;
+  -webkit-align-items: center;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
 }
-
-.App-link {
-  color: #61dafb;
+.text-transaction {
+  line-height: 31px;
+  margin-left: 14px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.display-flex {
+  display: flex;
+}
+.input-trip-financials {
+  margin-left: 36px;
+  height: 29px;
+}
+.input-trip-financials input {
+  height: 100%;
+  text-align: right;
+  outline: none;
+}
+.css-b62m3t-container {
+  width: 200px;
+}
+.item {
+  padding-top: 18px;
+}
+.item-content-header {
+  text-align: right;
+  padding-right: 14px;
+  line-height: 39px;
+  font-weight: bold;
+}
+.content {
+  text-align: right;
+  margin-top: 12px;
+}
+.trip-financials {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 11px;
+  padding-top: 11px;
+}
+.border-bottom {
+  border-bottom: 1px solid #aaa;
+  padding-bottom: 12px;
+}
+.navbar {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 91%;
+}
+@media screen and (max-width: 710px) {
+  .input-trip-financials {
+    margin-left: 22px;
+    height: 29px;
+    position: absolute;
+    top: 61px;
   }
-  to {
-    transform: rotate(360deg);
+  .input-trip-financials input {
+    width: 191px;
+    margin-left: -21px;
+  }
+  .navbar {
+    height: 110px;
+  }
+  .item {
+    padding-top: 81px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .navbar {
+    height: 120px;
+  }
+  .all-transactions {
+    position: absolute;
+    top: 95px;
+    left: 35%;
   }
 }
